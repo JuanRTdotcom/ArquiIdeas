@@ -1,0 +1,348 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Architects | Template </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/icono.ico">
+
+    <!-- CSS here -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/slicknav.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/auto-complete.css">
+    
+    <script src="./assets/js-arquiideas/conexion.js"></script>
+    <style>
+        .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #C5A060 !important;
+    border-color: #C5A060 !important;
+}
+    </style>
+</head>
+<body>
+    
+    
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="./assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!--? Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <a href="index.html"><img src="./assets/img/logo/logo.png" alt="" style="max-width: 190px;"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-10">
+							<div class="main-menu black-menu menu-bg-white d-none d-lg-block">
+								<div class="hamburger hamburger--collapse">
+									<div class="hamburger-box">
+										<div class="hamburger-inner"></div>
+									</div>
+								</div>
+								<nav class="hamburger-menu">
+									<ul id="navigation">
+										<li><a href="index.html">Inicio</a></li>
+										<li><a href="about.html">Nosotros</a></li>
+										<li><a href="services.html">Servicios</a></li>
+										<li><a href="project.html">Proyectos</a></li>
+										<li>
+											<a href="blog.html">Blog</a>
+											
+										</li>
+										<li><a href="contact.html">Contacto</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Header End -->
+    </header>
+    <main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-70 text-center">
+                                <h2>Blog</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!--? Blog Area Start-->
+       
+        <section class="blog_area section-padding" id="_subirScroll">
+            
+            <div class="container">
+                <div class="row" style="overflow: hidden;">
+                    <div class="col-lg-8 mb-5 mb-lg-0" id="_aquiTransicion" style="transition: all .5s">
+                        <div class="blog_left_sidebar" id="_blogsBaseDatos">
+                            <div class="loader">
+                                <div>
+                                  <ul>
+                                    <li>
+                                      <svg viewBox="0 0 90 120" fill="currentColor">
+                                        <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+                                      </svg>
+                                    </li>
+                                    <li>
+                                      <svg viewBox="0 0 90 120" fill="currentColor">
+                                        <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+                                      </svg>
+                                    </li>
+                                    <li>
+                                      <svg viewBox="0 0 90 120" fill="currentColor">
+                                        <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+                                      </svg>
+                                    </li>
+                                    <li>
+                                      <svg viewBox="0 0 90 120" fill="currentColor">
+                                        <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+                                      </svg>
+                                    </li>
+                                    <li>
+                                      <svg viewBox="0 0 90 120" fill="currentColor">
+                                        <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+                                      </svg>
+                                    </li>
+                                    <li>
+                                      <svg viewBox="0 0 90 120" fill="currentColor">
+                                        <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+                                      </svg>
+                                    </li>
+                                  </ul>
+                                </div><span>Buscando...</span>
+                              </div> 
+                            
+                            
+                        </div>
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination" id="pagination"></ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog_right_sidebar">
+                            <aside class="single_sidebar_widget search_widget">
+                                <form action="/" id="_formulariodeBusqueda">
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" id="buscarAqui" placeholder='Ingresa tu categoría'>
+                                            <div class="input-group-append">
+                                                <button class="btns" type="button"><i class="fa fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                                        type="submit" >Buscar</button>
+                                </form>
+                            </aside>
+                         
+
+                            <aside class="single_sidebar_widget post_category_widget">
+                                <h4 class="widget_title" style="color: #2d2d2d;">Categoría</h4>
+                                <ul class="list cat-list" id="_agregarCategorias">
+                                   
+                                </ul>
+                            </aside>
+                            <aside class="single_sidebar_widget popular_post_widget" id="_nuevosPost">
+                                <h3 class="widget_title" style="color: #2d2d2d;">Post Recientes</h3>
+                                
+                               
+                            </aside>
+                         
+
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog Area End -->
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding section-bg" data-background="./assets/img/gallery/footer_bg.png">
+            <div class="container">
+                <!-- Footer Top -->
+                <div class="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="./assets/img/logo/logo2_footer.png" alt="" style="max-width: 190px;"></a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p>Somos una empresa constructora especializada en el Sistema Drywall o construcción en seco, con 10 años de experiencia en la construcción de proyectos inmobiliarios y comerciales en el Perú.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Links Rapidos</h4>
+                                    <ul>
+                                        <li><a href="/about.html">Nostros</a></li>
+                                        <li><a href="/services.html"> Servicios</a></li>
+                                        <li><a href="/project.html"> Proyecto</a></li>
+                                        <li><a href="/blog.html"> Blog</a></li>
+                                        <li><a href="/contact.html"> Contacto</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Nuestros Servicios</h4>
+                                    <ul>
+                                        <li><a>Desarrollo y consultoría</a></li>
+                                        <li><a>Construcción</a></li>
+                                        <li><a>Supervisión</a></li>
+                                        <li><a>Post venta</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Ayuda</h4>
+                                    <ul>
+                                        <li><a href="contact.html">Envíanos un correo</a></li>
+                                        <li><a href="contact.html">Contáctanos</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-8 col-md-7">
+                            <div class="footer-copy-right">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script>  <i class="fa fa-code" aria-hidden="true"></i> por <a href="https://cv-juan.web.app/" target="_blank">JRdotcom</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>                   
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-4 col-md-5">
+                            <div class="footer-copy-right f-right">
+                                <!-- social -->
+                                <div class="footer-social">
+                                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                                    <a href="https://www.facebook.com/ArquiIdeasDrywall"><i class="fab fa-facebook-f"></i></a>
+                                    <!-- <a href="#"><i class="fab fa-behance"></i></a> -->
+                                    <a href="#"><i class="fas fa-globe"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    
+      
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+      <!-- JS here -->
+      
+      <script src="./assets/js-arquiideas/auto-complete.min.js"></script>
+      <!-- aqui helpers -->
+
+      <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+      <!-- Jquery, Popper, Bootstrap -->
+      <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+      <script src="./assets/js/popper.min.js"></script>
+      <script src="./assets/js/bootstrap.min.js"></script>
+      <!-- Jquery Mobile Menu -->
+      <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+      <!-- Jquery Slick , Owl-Carousel Plugins -->
+      <script src="./assets/js/owl.carousel.min.js"></script>
+      <script src="./assets/js/slick.min.js"></script>
+      <!-- One Page, Animated-HeadLin -->
+      <script src="./assets/js/wow.min.js"></script>
+      <script src="./assets/js/animated.headline.js"></script>
+      <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+      <!-- Date Picker -->
+      <script src="./assets/js/gijgo.min.js"></script>
+      <!-- Nice-select, sticky -->
+      <script src="./assets/js/jquery.nice-select.min.js"></script>
+      <script src="./assets/js/jquery.sticky.js"></script>
+      
+      <!-- counter , waypoint,Hover Direction -->
+      <script src="./assets/js/jquery.counterup.min.js"></script>
+      <script src="./assets/js/waypoints.min.js"></script>
+      <script src="./assets/js/jquery.countdown.min.js"></script>
+      <script src="./assets/js/hover-direction-snake.min.js"></script>
+
+      <!-- contact js -->
+      <script src="./assets/js/contact.js"></script>
+      <script src="./assets/js/jquery.form.js"></script>
+      <script src="./assets/js/jquery.validate.min.js"></script>
+      <script src="./assets/js/mail-script.js"></script>
+      <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+      
+      <!-- Jquery Plugins, main Jquery -->	
+      <script src="./assets/js-arquiideas/jquery.twbsPagination.js"></script>
+      <script src="./assets/js/plugins.js"></script>
+      <script src="./assets/js/main.js"></script>
+      <script src="./assets/js-arquiideas/blog.js"></script>
+     
+    </body>
+</html>
