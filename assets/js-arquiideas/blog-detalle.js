@@ -120,6 +120,7 @@ let __llenarBlog = (_data, _inicio, _final) => {
          _miEspacioBlogHtml.appendChild(_divPadre);
           _data[i].parrafos.forEach((x)=>{
             let p = document.createElement('p')
+            p.style.color = 'black'
             p.textContent = x
             _miEspacioBlogHtml.appendChild(p);
           })              
@@ -127,10 +128,10 @@ let __llenarBlog = (_data, _inicio, _final) => {
           let _miFinal = `</div>
           <div class="navigation-top">
                      <div class="d-sm-flex justify-content-between text-center">
-                        <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> Visitanos en nuestras redes.</p>
+                        <p class="like-info"><span class="align-middle"><i class="fa fa-heart" style="color:#d60202 !important;"></i></span> Visitanos en nuestras redes.</p>
                         
                         <ul class="social-icons">
-                           <li><a href="https://www.facebook.com/ArquiIdeasDrywall"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="https://www.facebook.com/ArquiIdeasDrywall" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                            <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
                            <li><a href="#"><i class="fab fa-behance"></i></a></li> -->
